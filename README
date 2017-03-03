@@ -1,0 +1,17 @@
+PyQt5 Notification
+
+This is a simple windows 10 like notification which is platform independent 
+
+Check out the sample.pyw to know how to use it
+
+Usage:
+
+1. If you just need to post a single message and do not need the message stacking effect, just 'py sample.pyw'
+2. If you need the message stacking effect, start the server with 'py server_sample.py' and post messages by 'py client_sample.py [arguments]'
+
+Requirement:
+Python 3 is required.
+
+Customization:
+If you want to change the appearance of messages without changing their layout, just modify the message.qml.
+If you want to further change layout of messages, modify the message.qml and ui_notification_qml.py files.
